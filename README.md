@@ -19,4 +19,4 @@ Each lab is organized as a separate folder or file and demonstrates practical ta
 ## How to use
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/yourusername/laboratory-works.git
+   git clone https://github.com/technomot/Web-programming-labs.git
