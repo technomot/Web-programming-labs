@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Variants Example</title>
+    <link rel="stylesheet" href="style.css">
+
+    
+    <style>
+        .internal {
+            color: darkblue;
+            quotes: "“" "”" "‘" "’";
+            font-family: "Verdana", sans-serif;
+            font-size: 18px;
+        }
+
+        
+        .class1 {
+            background-color: #ffe4e1; /* light pink */
+            padding: 8px;
+            font-size: 18px;
+        }
+
+        .class2 {
+            text-decoration: overline;
+            font-size: 18px;
+            color: darkgreen;
+        }
+
+        .class3 {
+            font-style: italic;
+            color: purple;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <h1 style="font-size: 32px; color: darkred;">Welcome to My CSS Example Page</h1>
+
+    
+    <p style="font-size: 20px;">
+        <!-- External CSS -->
+        <span class="external">This text uses external CSS (text-shadow and letter spacing).</span><br>
+
+        <!-- Internal CSS -->
+        <span class="internal">This text uses internal CSS (color, quotes, font-family).</span><br>
+
+        <!-- Inline CSS -->
+        <span style="font-size:22px; text-decoration: underline;">This text uses inline CSS (font-size and underline).</span><br>
+
+        <!-- Classes -->
+        <span class="class1">Fragment with class1 (background color and padding).</span><br>
+        <span class="class2">Fragment with class2 (overline and color).</span><br>
+        <span class="class3">Fragment with class3 (italic and purple color).</span>
+    </p>
+</body>
+</html>
