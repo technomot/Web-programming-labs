@@ -7,7 +7,8 @@ This repository contains my laboratory works completed during studies.
 Each lab is organized as a separate folder or file and demonstrates practical tasks in different subjects, such as programming and web development.
 
 ## Contents
-- **Lab 1–N** — HTML assignments (e.g., *The Internet as a Global Phenomenon* abstract)  
+- **Lab 1–N** — HTML assignments (e.g., *The Internet as a Global Phenomenon* abstract)
+- **Lab 2-N** - includes index.html and style.css.Presenting text on a web page using CSS
 - (other labs will be added as work progresses)
 
 ## Features
